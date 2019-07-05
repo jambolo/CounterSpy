@@ -1,0 +1,20 @@
+LIBRARY      "advert"
+DESCRIPTION  'Stand-in advert DLL'
+
+EXPORTS
+	std_Startup =					_std_Startup@24
+	std_Paint =						_std_Paint@16
+	std_OnClick =					_std_OnClick@4
+	std_SetCallback =				_std_SetCallback@12
+	std_SetAdRecordedCallback =		_std_SetAdRecordedCallback@12
+	std_SetNetworkCallback =		_std_SetNetworkCallback@12
+	std_SetBandwidthThrottle =		_std_SetBandwidthThrottle@8
+	std_SetMinimumAdDisplayTime =	_std_SetMinimumAdDisplayTime@8
+	std_IsConnectOkay =				_std_IsConnectOkay@8
+	std_RetryConnect =				_std_RetryConnect@4
+	std_SetNetworkState =			_std_SetNetworkState@8
+	std_SetProxy =					_std_SetProxy@16
+	std_GetStatus =					_std_GetStatus@12
+	std_UseDefaultAd =				_std_UseDefaultAd@12
+	std_Shutdown =					_std_Shutdown@4
+	std_debugTriggerEvent =			_std_debugTriggerEvent@8
